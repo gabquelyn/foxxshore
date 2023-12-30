@@ -62,6 +62,7 @@ export default function Section4() {
       <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
         {content.slice(0, 4).map((con) => (
           <Description
+            key={con.image}
             title={con.title}
             image={con.image}
             content={con.content}
@@ -72,6 +73,7 @@ export default function Section4() {
       <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
         {content.slice(4, 8).map((con) => (
           <Description
+            key={con.image}
             title={con.title}
             image={con.image}
             content={con.content}
