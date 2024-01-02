@@ -32,13 +32,13 @@ export default function Header() {
     >
       <div className="flex items-center justify-between">
         <Image src="/assets/logo1.png.png" alt="logo" height={70} width={140} />
-        <div className="flex gap-[2rem] text-[.9rem] tracking-wider">
+        <div className="flex items-center gap-[2rem] text-[.9rem] tracking-wider">
           <Link
             href="/"
             className={`hover:text-yellow ${pathname === "/" && "text-yellow"}`}
           >
             <p className="hidden md:block">Home</p>
-            <FaHome className="block text-[1.5rem] md:hidden" />
+            <FaHome className="block text-[1.2rem] md:hidden" />
           </Link>
           <Link
             href="/about"
@@ -47,7 +47,7 @@ export default function Header() {
             }`}
           >
             <p className="hidden md:block">About us</p>
-            <FaInfo className="block text-[1.5rem] md:hidden" />
+            <FaInfo className="block text-[1.2rem] md:hidden" />
           </Link>
           <Link
             href="/contact"
@@ -56,7 +56,7 @@ export default function Header() {
             }`}
           >
             <p className="hidden md:block">Contact us</p>
-            <FaPhone className="block text-[1.5rem] md:hidden" />
+            <FaPhone className="block text-[1rem] md:hidden" />
           </Link>
         </div>
         <div className="gap-2 items-center text-[1.2rem] hidden md:flex">
