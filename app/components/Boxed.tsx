@@ -4,12 +4,12 @@ export default function Boxed({
   img,
   title,
   content,
-  className
+  className,
 }: {
   img: string;
   title: string;
   content: string;
-  className?: string
+  className?: string;
 }) {
   return (
     <Box
