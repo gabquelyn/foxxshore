@@ -1,8 +1,6 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import { Playfair_Display, } from "next/font/google";
-const pair = Playfair_Display({ subsets: ["latin"] });
 interface Details {
   icon: string;
   count: number;

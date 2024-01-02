@@ -12,7 +12,7 @@ export default function Box({
   imgHeight?:string
 }) {
   return (
-    <div className={`rounded-md overflow-hidden bg-white ${className}`}>
+    <div className={`rounded-md overflow-hidden bg-white shadow-sm ${className}`}>
       <div className={`relative w-[100%] h-[10rem] ${imgHeight || "h-[10rem]"}`}>
         <Image
           src={image}
