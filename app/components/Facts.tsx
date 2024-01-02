@@ -10,47 +10,79 @@ interface Details {
   name: Name;
 }
 export default function Facts() {
-  const details: Details[] = [
-    {
+  const details: Record<Name, Details> = {
+    client: {
       icon: "a.png",
-      count: 1356,
+      count: 134,
       title: "served client",
       name: "client",
     },
-    {
+    tests: {
       icon: "b.png",
-      count: 2119,
+      count: 217,
       title: "analytics & tests",
       name: "tests",
     },
-    {
+    feedback: {
       icon: "c.png",
-      count: 2303,
+      count: 230,
       title: "feedbacks",
       name: "feedback",
     },
-    {
+    certification: {
       icon: "d.png",
       count: 128,
       title: "certifications",
       name: "certification",
     },
-  ];
-  const [facts, setFacts] = useState({
+  };
+  const [facts, setFacts] = useState<Record<Name, number>>({
     client: 0,
     tests: 0,
     feedback: 0,
     certification: 0,
   });
+
   useEffect(() => {
     const clientInterval = setInterval(() => {
-      if (facts.client > details[0].count) {
-        return
+      if (facts.client >= details.client.count) {
+        return;
       }
       setFacts((prev) => ({ ...prev, client: prev.client + 1 }));
-    }, 30);
+    }, 1000 / details.client.count);
     return () => clearInterval(clientInterval);
   }, [facts.client]);
+
+  useEffect(() => {
+    const testsInterval = setInterval(() => {
+      if (facts.tests >= details.tests.count) {
+        return;
+      }
+      setFacts((prev) => ({ ...prev, tests: prev.tests + 1 }));
+    }, 1000 / details.tests.count);
+    return () => clearInterval(testsInterval);
+  }, [facts.tests]);
+
+  useEffect(() => {
+    const feedbackInterval = setInterval(() => {
+      if (facts.feedback >= details.feedback.count) {
+        return;
+      }
+      setFacts((prev) => ({ ...prev, feedback: prev.feedback + 1 }));
+    }, 1000 / details.feedback.count);
+    return () => clearInterval(feedbackInterval);
+  }, [facts.feedback]);
+
+  useEffect(() => {
+    const certificationInterval = setInterval(() => {
+      if (facts.certification >= details.certification.count) {
+        return;
+      }
+      setFacts((prev) => ({ ...prev, certification: prev.certification + 1 }));
+    }, 1000 / details.certification.count);
+    return () => clearInterval(certificationInterval);
+  }, [facts.certification]);
+
   return (
     <div className="bg-[#F8F9F9] p-[4rem] flex flex-col text-center items-center justify-center">
       <div className="text-[1.5rem] flex flex-col items-center justify-center gap-1">
@@ -62,20 +94,22 @@ export default function Facts() {
         </p>
       </div>
       <div className="grid md:grid-cols-4 grid-cols-2 gap-[3rem] mt-[3rem] w-full">
-        {details.map((detail) => (
+        {Object.keys(details).map((detail) => (
           <div
             className="flex flex-col items-center justify-center gap-1"
-            key={detail.icon}
+            key={details[detail as Name].icon}
           >
             <Image
-              src={`/assets/${detail.icon}`}
+              src={`/assets/${details[detail as Name].icon}`}
               unoptimized
               alt="icon"
               width={50}
               height={50}
             />
-            <p className={`text-[1.4rem]`}>{facts[detail.name as Name]}</p>
-            <p className="capitalize text-[.8rem]">{detail.title}</p>
+            <p className={`text-[1.4rem]`}>{facts[detail as Name]}+</p>
+            <p className="capitalize text-[.8rem]">
+              {details[detail as Name].title}
+            </p>
           </div>
         ))}
       </div>
