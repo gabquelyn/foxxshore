@@ -15,8 +15,19 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   height: 100svh;
 }
+
+.about{
+  background-image: url('/assets/about.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 70svh;
+}
+
 .footer{
   background-image: url('/assets/footer.jpg');
   background-position: center;
