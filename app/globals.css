@@ -28,6 +28,15 @@
   height: 70svh;
 }
 
+.contact{
+  background-image: url('/assets/cc.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 70svh;
+}
+
 .footer{
   background-image: url('/assets/footer.jpg');
   background-position: center;
@@ -39,4 +48,9 @@
 
 .icons p {
   @apply flex  gap-3
+}
+
+
+textarea{
+  resize: none;
 }
