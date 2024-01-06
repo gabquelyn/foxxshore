@@ -22,6 +22,11 @@ export default function ContactForm() {
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     console.log(details);
+    setDetails({
+      names: "",
+      email: "",
+      message: ""
+    })
   };
 
   return (
