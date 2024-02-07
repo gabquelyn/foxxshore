@@ -13,25 +13,25 @@ export default function Facts() {
   const details: Record<Name, Details> = {
     client: {
       icon: "a.png",
-      count: 134,
+      count: 5,
       title: "served client",
       name: "client",
     },
     tests: {
       icon: "b.png",
-      count: 217,
+      count: 201,
       title: "analytics & tests",
       name: "tests",
     },
     feedback: {
       icon: "c.png",
-      count: 230,
+      count: 10,
       title: "feedbacks",
       name: "feedback",
     },
     certification: {
       icon: "d.png",
-      count: 128,
+      count: 25,
       title: "certifications",
       name: "certification",
     },
@@ -88,10 +88,10 @@ export default function Facts() {
       <div className="text-[1.5rem] flex flex-col items-center justify-center gap-1">
         <p className="uppercase  font-semibold">Interesting facts</p>
         <div className="h-1 w-20 bg-yellow"></div>
-        <p className=" text-[.8rem]">
+        {/* <p className=" text-[.8rem]">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
           eaque? Lorem
-        </p>
+        </p> */}
       </div>
       <div className="grid md:grid-cols-4 grid-cols-2 gap-[3rem] mt-[3rem] w-full">
         {Object.keys(details).map((detail) => (

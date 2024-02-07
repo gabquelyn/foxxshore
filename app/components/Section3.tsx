@@ -7,7 +7,7 @@ export default function Section3() {
     <div className="grid grid-cols-1 md:grid-cols-2">
       <div className="relative h-full w-full">
         <Image
-          src="/assets/worker.jpg"
+          src="/assets/foxx4.jpeg"
           fill
           alt="constructor worker"
           className="object-cover"
@@ -17,7 +17,7 @@ export default function Section3() {
       <div className="bg-blue-500 text-white p-[2.5rem] flex items-center text-center flex-col gap-2 relative">
         <div className="absolute">
           <Image
-            src="/assets/const.png"
+            src="/assets/foxx4.jpeg"
             alt="image"
             height={120}
             width={360}
@@ -31,12 +31,9 @@ export default function Section3() {
         </p>
         <p className="text-[2rem] font-bold">Vison</p>
 
-        <p className="text-[2rem]">We always think on your dreams</p>
+        <p className="text-[2rem]">Ingretrated digital seismic data acquisition and processing  </p>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio
-          consequatur in et, cum consequuntur obcaecati ea dicta fuga dolorem
-          veritatis impedit doloribus nam vitae natus quibusdam quam adipisci
-          sed libero?
+        To reduce downtime, uncertainty, improve data integrity, improve workflow, reduce risk on investment, improve insight and profitability.  
         </p>
       </div>
     </div>

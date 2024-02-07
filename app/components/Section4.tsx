@@ -8,43 +8,43 @@ interface Content {
 
 const content: Content[] = [
   {
-    title: "Awesome Employees",
-    content: "Our services are so awesome of passages of Lerem ipsum available",
+    title: "Experts",
+    content: "10 years of experience in 3D and 4D processing",
     image: "/assets/icon11.jpg.png",
   },
   {
-    title: "Maximum Power",
-    content: "Get Unlimited Energy of passages of Lerem ipsum available",
+    title: "Oil spills detection and cleaning",
+    content: "We detect and apply sophisticated techology for oil spills clean up",
     image: "/assets/icon81.jpg.png",
   },
   {
-    title: "Oil Resources",
-    content: "There is many variantions of passages of Lerem ipsum available",
+    title: "4D ocean-bottom node",
+    content: "We provide exclusive data insnight for better deccision making through our seismic 4D high-definition bottom node data interpretion services",
     image: "/assets/icon71.jpg.png",
   },
   {
     title: "Continues Development",
-    content: "There is many variantions of passages of Lerem ipsum available",
+    content: "Real time reservoiur pore presure monitoring to avoid blow out",
     image: "/assets/icon61.jpg.png",
   },
   {
-    title: "Chemical Analysis",
+    title: "Pore Presure Analysis",
     content: "There is many variantions of passages of Lerem ipsum available",
     image: "/assets/icon51.jpg.png",
   },
   {
     title: "We Fight Polution",
-    content: "There is many variantions of passages of Lerem ipsum available",
+    content: "We operate with sophisticated to reduce oil spill polution during extraction ",
     image: "/assets/icon41.jpg.png",
   },
   {
-    title: "We Think About The Consumer",
-    content: "There is many variantions of passages of Lerem ipsum available",
+    title: "optimise workflows",
+    content: "Involved in a multi-survey 3D and 4D data processing and workflow optimization ",
     image: "/assets/icon31.jpg.png",
   },
   {
-    title: "We Care About Envirement",
-    content: "There is many variantions of passages of Lerem ipsum available",
+    title: "Pipline realtime tracking ",
+    content: "Our solution track and report any pipline linkage",
     image: "/assets/icon9.jpg.png",
   },
 ];
@@ -52,9 +52,9 @@ export default function Section4() {
   return (
     <div className="my-[4rem] flex flex-col items-center gap-20 mx-[1rem] md:mx-[8rem]">
       <div className="flex items-center justify-center flex-col">
-        <p className="font-semibold">We provide energy</p>
+        <p className="font-semibold">Who we help</p>
         <p className="text-[.7rem] text-[#888888]">
-          To many clients like government, homes and offices
+          Our clients are: government, companies  and contractors
         </p>
         <div className="h-1 w-20 bg-yellow my-2"></div>
       </div>

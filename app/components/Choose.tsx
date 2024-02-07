@@ -27,13 +27,8 @@ export default function Choose() {
           <FaQuestion />
         </p>
         <p className="text-[2rem] font-bold">Why choose us</p>
-
-        <p className="text-[2rem]">We always think on your dreams</p>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio
-          consequatur in et, cum consequuntur obcaecati ea dicta fuga dolorem
-          veritatis impedit doloribus nam vitae natus quibusdam quam adipisci
-          sed libero?
+        We have great team of experience integrated 
         </p>
       </div>
     </div>

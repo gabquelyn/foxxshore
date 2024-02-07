@@ -8,7 +8,7 @@ export default function Section3() {
       <div className="bg-blue-500 text-white p-[2.5rem] flex items-center text-center flex-col gap-2 relative">
         <div className="absolute">
           <Image
-            src="/assets/const.png"
+            src="/assets/foxx4.jpeg"
             alt="image"
             height={120}
             width={360}
@@ -24,15 +24,12 @@ export default function Section3() {
 
         <p className="text-[2rem]">Build a sustainable future</p>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio
-          consequatur in et, cum consequuntur obcaecati ea dicta fuga dolorem
-          veritatis impedit doloribus nam vitae natus quibusdam quam adipisci
-          sed libero?
+        The future of sustainable energy is that everyone can generate, store and use it effectively and efficiently. 
         </p>
       </div>
       <div className="relative h-full w-full">
         <Image
-          src="/assets/down.jpg"
+          src="/assets/foxx6.jpeg"
           fill
           alt="constructor worker"
           className="object-cover"
