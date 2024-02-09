@@ -43,6 +43,8 @@ export default function Facts() {
     certification: 0,
   });
 
+  // useEffects for 'em count downs
+
   useEffect(() => {
     const clientInterval = setInterval(() => {
       if (facts.client >= details.client.count) {
@@ -52,6 +54,7 @@ export default function Facts() {
     }, 1000 / details.client.count);
     return () => clearInterval(clientInterval);
   }, [facts.client]);
+
 
   useEffect(() => {
     const testsInterval = setInterval(() => {
