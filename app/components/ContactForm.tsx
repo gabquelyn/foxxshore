@@ -34,9 +34,9 @@ export default function ContactForm() {
       <div className="text-[1.5rem] flex flex-col items-center justify-center gap-1 mb-[4rem]">
         <p className="uppercase  font-semibold">Mesage us</p>
         <div className="h-1 w-20 bg-yellow"></div>
-        <p className=" text-[.8rem] text-center">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem?
-        </p>
+        {/* <p className=" text-[.8rem] text-center">
+
+        </p> */}
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
         <div className="h-full w-full relative">

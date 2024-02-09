@@ -11,7 +11,7 @@
 }
 
 .background{
-  background-image: url('/assets/background.png');
+  background-image: url('/assets/foxxhome.jpeg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -20,7 +20,7 @@
 }
 
 .about{
-  background-image: url('/assets/about.jpg');
+  background-image: url('/assets/foxx6.jpeg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -29,7 +29,7 @@
 }
 
 .contact{
-  background-image: url('/assets/cc.jpg');
+  background-image: url('/assets/foxx4.jpeg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

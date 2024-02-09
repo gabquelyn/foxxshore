@@ -7,8 +7,7 @@ export default function Testimonial() {
         <p className="uppercase  font-semibold">Testimonials</p>
         <div className="h-1 w-20 bg-yellow"></div>
         <p className=" text-[.8rem] px-[2rem]">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
-          eaque? Lorem
+         What our clients are saying
         </p>
       </div>
       <TestimonialSlider />

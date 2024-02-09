@@ -3,10 +3,9 @@ import React from "react";
 import Image from "next/image";
 import { FaPhoneFlip } from "react-icons/fa6";
 import { MdOutlineMail } from "react-icons/md";
-import { FaFax, FaDiscord, FaLinkedin } from "react-icons/fa";
+import {  FaLinkedin } from "react-icons/fa";
 import { TiSocialInstagram } from "react-icons/ti";
 import { IoLogoGoogleplus } from "react-icons/io";
-import { ImFacebook2 } from "react-icons/im";
 import Link from "next/link";
 import { TiLocation } from "react-icons/ti";
 export default function Hero() {
@@ -24,12 +23,10 @@ export default function Hero() {
             width={140}
           />
           <p>
-            Petroleum is the leader in the country sed diam nonumy eirmod tempor
-            invidunt ut labore and efficient strategy.
+            Foxxshore an oil and gas exploration and production comapny.
           </p>
           <p>
-            We provide the energy to medium and big company, sadipscing elitr,
-            sed diam nonumy.
+            We provide integrated data acquisition and processing services in an effective way.
           </p>
         </div>
         <div className="flex flex-col gap-6 capitalize">
@@ -40,35 +37,31 @@ export default function Hero() {
               phone
               <span>+12 34567 888</span>
             </p>
-            <p>
+            {/* <p>
               <FaFax />
               fax
               <span>+90 998 988</span>
-            </p>
+            </p> */}
             <p>
               <MdOutlineMail />
               email
-              <span>example@example.com</span>
+              <span>info@foxxshore.com</span>
             </p>
             <p>
               <TiLocation />
               address
-              <span>some location in the world, planet earth.</span>
+              <span>2 walter carringhton VI.</span>
             </p>
           </div>
           <div className="flex gap-4 items-center text-[1.2rem]">
-            <Link href="/" className="hover:text-yellow">
-              <ImFacebook2 />
-            </Link>
+            
             <Link href="/" className="hover:text-yellow">
               <TiSocialInstagram />
             </Link>
-            <Link href="/" className="hover:text-yellow">
+            {/* <Link href="/" className="hover:text-yellow">
               <IoLogoGoogleplus />
-            </Link>
-            <Link href="/" className="hover:text-yellow">
-              <FaDiscord />
-            </Link>
+            </Link> */}
+            
             <Link href="/" className="hover:text-yellow">
               <FaLinkedin />
             </Link>

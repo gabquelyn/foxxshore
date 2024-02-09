@@ -15,26 +15,25 @@ export default function Hero() {
             <br />
             the most of resources.
           </h1>
-          <button className="uppercase p-2 px-7 bg-yellow text-[.9rem] text-black font-semibold">
+          <button className="uppercase p-2 px-7 bg-red-700 text-[.9rem] text-black font-semibold">
             Read more
           </button>
         </div>
         <div className="bg-white hidden md:block p-[2rem] pt-[4rem] relative rounded-md shadow-lg">
           <Box
-            image="/assets/panel.jpg"
+            image="/assets/foxx1.jpeg"
             className="w-[50%] shadow-lg"
             imgHeight="h-[18rem]"
           />
           <Box
-            image="/assets/hold.jpg"
+            image="/assets/foxx5.jpeg"
             className="md:w-[50%] w-[60%] shadow-lg absolute md:right-12 right-10 top-8"
             content={
               <div>
-                <p className="uppercase text-yellow">solar project</p>
+                <p className="uppercase text-red-700">Deep water seismic data acquisition</p>
                 <p className="text-black text-[.8rem]">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
-                  repellendus magni ullam laboriosam. Beatae dignissimos aliquid
-                  dolorum illum.
+                Increased your confidence and reduced uncertainty with improved data quality
+
                 </p>
               </div>
             }

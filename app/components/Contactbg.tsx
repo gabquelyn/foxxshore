@@ -9,10 +9,10 @@ export default function Contactbg() {
           contact us
         </p>
         <div className="h-1 w-20 bg-yellow"></div>
-        <p className=" text-[.8rem] text-wrap w-[70%] md:w-[50%]">
+        {/* <p className=" text-[.8rem] text-wrap w-[70%] md:w-[50%]">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
           eaque? Lorem ipsum dolor sit amet consectetur.
-        </p>
+        </p> */}
       </div>
     </div>
   );
