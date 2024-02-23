@@ -8,19 +8,19 @@ interface Team {
   description: string;
 }
 const people: Team[] = [
-  { name: "Dweck philip", image: "/assets/p1.jpg", description: "Founder" },
-  { name: "Cal newport", image: "/assets/p2.jpg", description: "CEO" },
+  { name: "Shahrukh Mohammad", image: "/assets/shahrukh.jpeg", description: "Cheif Geophysicist" },
+  { name: "John David", image: "/assets/David.jpg", description: "Geophycist" },
   {
     name: "Bil thompson",
     image: "/assets/p3.jpg",
-    description: "Sales manager",
+    description: "Cheif Geologist",
   },
   {
     name: "ges giblin",
     image: "/assets/p4.jpg",
-    description: "Analysis manager",
+    description: "Project manager",
   },
-  { name: "mark nicer", image: "/assets/p5.jpg", description: "Marketer" },
+  // { name: "mark nicer", image: "/assets/p5.jpg", description: "Marketer" },
 ];
 export default function TeamSlider() {
   var settings = {

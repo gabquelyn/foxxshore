@@ -54,7 +54,7 @@ export default function Section4() {
       <div className="flex items-center justify-center flex-col">
         <p className="font-semibold">Who we help</p>
         <p className="text-[.7rem] text-[#888888]">
-          Our clients are: government, companies  and contractors
+          Our clients are: Companies, contractors and anyone in the oil and gas exploration and production space
         </p>
         <div className="h-1 w-20 bg-yellow my-2"></div>
       </div>

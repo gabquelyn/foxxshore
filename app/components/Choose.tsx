@@ -28,7 +28,11 @@ export default function Choose() {
         </p>
         <p className="text-[2rem] font-bold">Why choose us</p>
         <p>
-        We have great team of experience integrated 
+        We have great team of 10 years experience integrated.
+        <br/>
+        We keep cost low. 
+        <br/>
+        Our technological approach reduce downtime with high quality data
         </p>
       </div>
     </div>

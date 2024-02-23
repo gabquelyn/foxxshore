@@ -7,17 +7,18 @@ export default function Hero() {
       <div className="md:mx-[4rem] mx-[1rem] z-10 grid grid-cols-1 md:grid-cols-[45%_50%] gap-7 w-full mt-[3rem]">
         <div>
           <h1 className="md:text-[2.5rem] text-[2.2rem] font-bold md:mb-4 mb-2 capitalize">
-            Overcoming
+            Increase your
+
             <br />
-            technology
+            confidence 
             <br />
-            challenges: making
+            and reduce uncertainty with
             <br />
-            the most of resources.
+            improve data quality
           </h1>
-          <button className="uppercase p-2 px-7 bg-red-700 text-[.9rem] text-black font-semibold">
+          {/* <button className="uppercase p-2 px-7 bg-red-700 text-[.9rem] text-black font-semibold">
             Read more
-          </button>
+          </button> */}
         </div>
         <div className="bg-white hidden md:block p-[2rem] pt-[4rem] relative rounded-md shadow-lg">
           <Box
@@ -32,7 +33,7 @@ export default function Hero() {
               <div>
                 <p className="uppercase text-red-700">Deep water seismic data acquisition</p>
                 <p className="text-black text-[.8rem]">
-                Increased your confidence and reduced uncertainty with improved data quality
+                Save time and money with our high quality deep water data acquistion and processing services
 
                 </p>
               </div>

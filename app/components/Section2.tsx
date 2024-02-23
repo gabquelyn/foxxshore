@@ -12,7 +12,7 @@ export default function Section2() {
         <Boxed
           img="/assets/foxx3.jpeg"
           title=" Strong insight in OBN data process "
-          content=" We demonstrate corresponding solutions using processing workflows comprising denoising the vertical geophones by using all four recorded nodal components, cross-ghosting the data or using direct wave to design calibration filters for up- and down-going wavefield separation, performing one-dimensional reversible redatuming for stacking QC and multiple prediction, and designing cascaded model and data-driven multiple elimination applications. The optimum combination of the mentioned technologies produced cleaner and high-resolution migration images mitigating the risk of false interpretations"
+          content=" We demonstrate corresponding solutions using processing workflows comprising denoising the vertical geophones by using all four recorded nodal components, cross-ghosting the data. wavefield separation, performing one-dimensional reversible redatuming for stacking QC and multiple prediction, and designing cascaded model and data-driven multiple elimination applications. "
         />
         <Boxed
           img="/assets/31.jpg.png"

@@ -31,7 +31,7 @@ export default function Header() {
       } text-white uppercase px-4 md-px-[4rem] py-4 w-full`}
     >
       <div className="flex items-center justify-between">
-        <Image src="/assets/logo1.png.png" alt="logo" height={70} width={140} />
+        <Image src="/assets/foxxwhite.png" alt="logo" height={0} width={140} />
         <div className="flex items-center gap-[2rem] text-[.9rem] tracking-wider">
           <Link
             href="/"

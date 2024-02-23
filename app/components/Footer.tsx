@@ -35,7 +35,7 @@ export default function Hero() {
             <p>
               <FaPhoneFlip />
               phone
-              <span>+12 34567 888</span>
+              <span>+44 7842 310262</span>
             </p>
             {/* <p>
               <FaFax />
