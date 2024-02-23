@@ -55,6 +55,7 @@ export default function Facts() {
     return () => clearInterval(clientInterval);
   }, [facts.client]);
 
+  // so to merge
 
   useEffect(() => {
     const testsInterval = setInterval(() => {
