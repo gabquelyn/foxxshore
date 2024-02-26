@@ -17,7 +17,7 @@ export default function Section3() {
       <div className="bg-blue-500 text-white p-[2.5rem] flex items-center text-center flex-col gap-2 relative">
         <div className="absolute">
           <Image
-            src="/assets/foxx4.jpeg"
+            src="/assets/const.png"
             alt="image"
             height={120}
             width={360}
@@ -31,9 +31,13 @@ export default function Section3() {
         </p>
         <p className="text-[2rem] font-bold">Vison</p>
 
-        <p className="text-[2rem]">Ingretrated digital seismic data acquisition and processing  </p>
+        <p className="text-[2rem]">
+          Ingretrated digital seismic data acquisition and processing.
+        </p>
         <p>
-        To reduce downtime, uncertainty, improve data integrity, improve workflow, reduce risk on investment, improve insight and profitability.  
+          To reduce downtime, uncertainty, improve data integrity, improve
+          workflow, reduce risk on investment, improve insight and
+          profitability.
         </p>
       </div>
     </div>

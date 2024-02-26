@@ -9,7 +9,7 @@ interface Team {
 }
 const people: Team[] = [
   { name: "Shahrukh Mohammad", image: "/assets/shahrukh.jpeg", description: "Cheif Geophysicist" },
-  { name: "John David", image: "/assets/David.jpg", description: "Geophycist" },
+  { name: "John David", image: "/assets/David.JPG", description: "Geophycist" },
   {
     name: "Bil thompson",
     image: "/assets/p3.jpg",
@@ -46,6 +46,7 @@ export default function TeamSlider() {
             key={p.image}
             img={p.image}
             title={p.name}
+            how="object-contain"
             className="md:mx-3"
             content={p.description}
           />

@@ -8,7 +8,7 @@ export default function Section3() {
       <div className="bg-blue-500 text-white p-[2.5rem] flex items-center text-center flex-col gap-2 relative">
         <div className="absolute">
           <Image
-            src="/assets/foxx4.jpeg"
+            src="/assets/const.png"
             alt="image"
             height={120}
             width={360}

@@ -51,10 +51,10 @@ const content: Content[] = [
 export default function Section4() {
   return (
     <div className="my-[4rem] flex flex-col items-center gap-20 mx-[1rem] md:mx-[8rem]">
-      <div className="flex items-center justify-center flex-col">
+      <div className="flex items-center justify-center flex-col text-center">
         <p className="font-semibold">Who we help</p>
         <p className="text-[.7rem] text-[#888888]">
-          Our clients are: Companies, contractors and anyone in the oil and gas exploration and production space
+          Our clients are: Companies, contractors and anyone in the oil and <br/>gas exploration and production space
         </p>
         <div className="h-1 w-20 bg-yellow my-2"></div>
       </div>

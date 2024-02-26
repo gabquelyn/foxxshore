@@ -12,12 +12,12 @@ export default function Section2() {
         <Boxed
           img="/assets/foxx3.jpeg"
           title=" Strong insight in OBN data process "
-          content=" We demonstrate corresponding solutions using processing workflows comprising denoising the vertical geophones by using all four recorded nodal components, cross-ghosting the data. wavefield separation, performing one-dimensional reversible redatuming for stacking QC and multiple prediction, and designing cascaded model and data-driven multiple elimination applications. "
+          content=" We demonstrate corresponding solutions using processing workflows comprising denoising the vertical geophones by using all four recorded nodal components."
         />
         <Boxed
           img="/assets/31.jpg.png"
           title=" Offshore and Onshore project management "
-          content=" Responsible for all tasks related to planning, testing, running production, client communications and project management. Include qc’ing seismic data as acquired on a daily basis, generating reports, updating project management software, and reporting to the Party chief and the client rep.  ."
+          content=" Responsible for all tasks related to planning, testing, running production, client communications and project management."
         />
       </div>
     </section>

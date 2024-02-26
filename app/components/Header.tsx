@@ -2,8 +2,7 @@
 import React, { useState, useEffect } from "react";
 import { TiSocialInstagram } from "react-icons/ti";
 import { usePathname } from "next/navigation";
-import { IoLogoGoogleplus } from "react-icons/io";
-import { FaHome, FaPhone, FaInfo } from "react-icons/fa";
+import { FaHome, FaPhone, FaInfo, FaTwitter, FaLinkedin } from "react-icons/fa";
 import { ImFacebook2 } from "react-icons/im";
 import Link from "next/link";
 import Image from "next/image";
@@ -28,11 +27,13 @@ export default function Header() {
     <div
       className={`fixed top-0 z-20 transition-all ${
         isScrolled && "bg-[rgba(0,0,0,0.5)]"
-      } text-white uppercase px-4 md-px-[4rem] py-4 w-full`}
+      } text-white uppercase px-2 md-px-[4rem] py-4 w-full`}
     >
       <div className="flex items-center justify-between">
-        <Image src="/assets/foxxwhite.png" alt="logo" height={0} width={140} />
-        <div className="flex items-center gap-[2rem] text-[.9rem] tracking-wider">
+        <Link href="/">
+          <Image src="/assets/fx.png" alt="logo" height={60} width={150} />
+        </Link>
+        <div className="flex items-center gap-[1rem] md:gap-[2rem] text-[.9rem] tracking-wider">
           <Link
             href="/"
             className={`hover:text-yellow ${pathname === "/" && "text-yellow"}`}
@@ -60,14 +61,14 @@ export default function Header() {
           </Link>
         </div>
         <div className="gap-2 items-center text-[1.2rem] hidden md:flex">
-          <Link href="/" className="hover:text-yellow">
-            <ImFacebook2 />
+          <Link href="https://www.linkedin.com/company/foxxshore/" className="hover:text-yellow">
+            <FaLinkedin />
           </Link>
-          <Link href="/" className="hover:text-yellow">
+          <Link href="https://www.instagram.com/foxxshore/" className="hover:text-yellow">
             <TiSocialInstagram />
           </Link>
-          <Link href="/" className="hover:text-yellow">
-            <IoLogoGoogleplus />
+          <Link href="https://twitter.com/foxxshore/" className="hover:text-yellow">
+            <FaTwitter />
           </Link>
         </div>
       </div>
